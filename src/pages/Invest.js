@@ -14,60 +14,18 @@ export default function Invest() {
             <p>
               Bifarin farms present an attractive investment opportunity for the
               public in its farming enterprises, starting with the pig farm. In
-              this first round of investment, a person/entity can invest in up
+              this round of investment, a person/entity can invest in up
               to five 'packages' worth N500,000 each. Return of investment is at
-              35% after an incubation period of 8 months.  If you have reserved
-              any package(s) through a farm representative, please follow the
-              listed steps below
+              35% after an incubation period of 8 months.  If you want to reserve
+              any package(s) through through our online platform, please click on the button below
+        
             </p>
-            <ol>
-              <li>
-                Make your payment to
-                <br />
-                Account number: 2012354571
-                <br />
-                Account Name: Bifarin John Olatokunbo
-                <br />
-                Bank Name: First Bank
-              </li>
-              <li>Screen-shot a copy of your receipt of investment</li>
-              <li>
-                Click{" "}
-                <span>
-                  <a
-                    href="https://pdf.ac/18WfEt"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    here
-                  </a>
-                </span>{" "}
-                to fill the Investment Contract
-              </li>
-              <li>
-                Follow the prompts to upload your receipt of investment (This
-                comes last while completing the Online Contract) Within the next
-                24hrs, you will be emailed the countersign contract for your
-                reference. If you are not able to make this round, be sure to
-                reserve your
-                <span>
-                  {" "}
-                  <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLScjZ5Kht4XNW9gvQcWN3MmSzpSUmYI6Unagk-81npjDFttEHA/viewform?usp=sf_link"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    spot
-                  </a>
-                </span>{" "}
-                for our next round of investments
-              </li>
-            </ol>
+            
           </div>
 
           <div className="invest-btn">
-            <a href="https://pdf.ac/18WfEt" target="_blank" rel="noreferrer">
-              <button>INVEST NOW</button>
+            <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=ee8xL9plI0Gb_USD4ik86XOIAWcl80BGrOck-tRJe5JUNEpZTEEwODQxVFoyT0E5SlFUOTAzRlJOVCQlQCN0PWcu&embed=true" target="_blank" rel="noreferrer">
+              <button>RESERVE HERE</button>
             </a>
           </div>
         </div>
@@ -89,7 +47,6 @@ const InvestContainer = styled.div`
     align-items: center;
     .invest-text {
       max-width: 28rem;
-
       .invest-header {
         padding-bottom: 0.6rem;
       }
@@ -102,7 +59,6 @@ const InvestContainer = styled.div`
             a {
               color: #43a22a;
             }
-
             font-weight: bold;
           }
         }
@@ -124,7 +80,6 @@ const InvestContainer = styled.div`
     @media screen and (max-width: 900px) {
       display: flex;
       flex-direction: column-reverse;
-
       .invest-header {
         padding-top: 0.6rem;
       }
